@@ -7,3 +7,67 @@
     width: 70%;
 
 }
+
+.image-hero {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+}
+
+.subtitle {
+    letter-spacing: 10px;
+}
+
+#hero {
+    height: 95vh;
+}
+
+.text-about {
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+body {background-color: aliceblue;}
+th {color: black;}
+h2 {color:blue;}
+h3 {color:blue}
+ul {color:green}
+li {color:royalblue}
+th {background-color:plum}
+td {background-color:cyan}
+tr {background-color:lightpink}
+.external {background-color:orange}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: palevioletred;
+    width: 30%
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: plum;
+}

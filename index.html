@@ -1,11 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href=".style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,400;1,500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-dark" aria-current="page" href="index.html">Biodata</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-dark" aria-current="page" href="portofolio.html">Portofolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+      <!-- hero -->
+      <div id="hero" class="container d-flex flex-column align-items-center justify-content-center">
+        <img src="./assets/image/foto irma.jpeg" class="image-hero rounded-circle" alt="">
+        <h1 class="title fw-bold">Irma Oktavia</h1>
+        <p class="subtitle">Peserta SIB SEAL Batch 3</p>
+        <i class="bi bi-arrow-down"></i>
+      </div>
+
+      <!-- about me -->
+      <div id="about" class="container mb-5">
+        <h2 class="text-center mb-3">About Me</h2>
+        <div class="row">
+            <div class="col-6">
+                <img src="./assets/image/foto irma new.jpeg" class="shadow rounded w-100" alt="">
+            </div>
+            <div class="col-6">
+                <p class="text-about text-secondary lh-lg"> Saya Irma Oktavia merupakan Mahasiswa Jurusan Geografi di Universitas Negeri Semarang Tahun 2019. Memiliki pengalaman sebagai surveyor, penanggung jawab dan penulis jurnal. Saya mampu berkomunikasi dengan baik dalam tim, memiliki inisiatif, kreativitas tinggi, cermat, manajemen data dan analisis.
+                    Saya sangat tertarik dengan bidang pendidikan, lingkungan, ekonomi, dan sosial budaya. Saya memiliki hobi menyanyi, memasak, membaca, dan jalan-jalan. Makanan favorit saya adalah nasi goreng, mie, dan soto. Dan saya berharap dengan mengikuti program ini, saya bisa menambah ilmu & pengalaman serta keahlian saya terutama di bidang Ilmu Teknologi karena bidang tersebut bertolak belakang dengan jurusan saya saat ini.
+                    Selain itu harapan saya, ingin bisa berkolaborasi antara jurusan saya yaitu Geografi dengan IT apalagi di era sekarang sangat dibutuhkan sekali ahli-ahli IT. Hal itu menjadi sebuah motivasi saya untuk bersungguh-sungguh dalam mengikuti program ini.</p>
+            </div>
+        </div>
+      </div>
+
+      <!-- skill -->
+      <div id="skill" class="container mb-5">
+        <h2 class="text-center mb-3">My Skill</h2>
+        <div class="row">
+            <div class="col-3">
+                <div class="card">
+                    <img src="./assets/image/mo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Microsoft Office</h5>
+                      <p class="card-text">Microsoft Word, Microsoft Power Point, dan Microsoft Excel.</p>
+                      <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./assets/image/public speaking.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Public Speaking</h5>
+                      <p class="card-text">Komunikasi lisan yang dilakukan secara langsung di muka umum.</p>
+                      <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./assets/image/arcgis.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ArcGIS</h5>
+                      <p class="card-text">Produk perangkat lunak sistem informasi geografis yang diproduksi oleh Esri.</p>
+                      <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./assets/image/surveyor1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Surveyor</h5>
+                      <p class="card-text">Seseorang yang bekerja di lapangan untuk mendapatkan dan mengumpulkan data.</p>
+                      <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                    </div>
+                  </div>
+        </div>
+      </div>
+
+      <!-- contact me -->
+      <div id="contact" class="container mb-5">
+        <h2 class="text-center mb-3">Contact Me</h2>
+        <form class="col-6 mx-auto">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary w-100">Submit</button>
+        </form>
+      </div>
+
+        <!-- footer -->
+        <div class="container-fluid">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/irma-oktavia-665420244"><i<i class="bi bi-linkedin"></i></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/irrmaoktavia/"><i class="bi bi-instagram"></i></svg></a></li>
+              </ul>
+            </footer>
+          </div>
+          
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata</title>
-
+  
     <style type="text/css">
         body {background-color: aliceblue;}
         th {color: blueviolet;}
@@ -17,149 +155,14 @@
         td {background-color:cyan}
         tr {background-color:lightpink}
         .external {background-color:orange}
-
-        .nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: palevioletred;
-            width: 30%
-        }
-
-        .nav li {
-            float: left;
-        }
-
-        .nav li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        .nav li a:hover {
-            background-color: plum;
-        }
        
         </style>
             <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-    <div class="nav">
-        <ul>
-            <li><a href="">Biodata</a></li>
-            <li><a href="portofolio.html">Portofolio</a></li>
-        </ul>
- 
-
-        
-
-        <h2>Irma Oktavia</h2>
-            <img src="foto irma.jpeg" widht="200" height="200">
-            <h3>Tentang Saya</h3>
-                <p>Saya Irma Oktavia merupakan Mahasiswa Jurusan Geografi di Universitas Negeri Semarang Tahun 2019. Memiliki pengalaman sebagai surveyor, penanggung jawab dan penulis jurnal. Saya mampu berkomunikasi dengan baik dalam tim, memiliki inisiatif, kreativitas tinggi, cermat, manajemen data dan analisis.
-                   Saya sangat tertarik dengan bidang pendidikan, lingkungan, ekonomi, dan sosial budaya. Saya memiliki hobi menyanyi, memasak, membaca, dan jalan-jalan. Makanan favorit saya adalah nasi goreng, mie, dan soto. Dan saya berharap dengan mengikuti program ini, saya bisa menambah ilmu & pengalaman serta keahlian saya terutama di bidang Ilmu Teknologi karena bidang tersebut bertolak belakang dengan jurusan saya saat ini.
-                   Selain itu harapan saya, ingin bisa berkolaborasi antara jurusan saya yaitu Geografi dengan IT apalagi di era sekarang sangat dibutuhkan sekali ahli-ahli IT. Hal itu menjadi sebuah motivasi saya untuk bersungguh-sungguh dalam mengikuti program ini.</p>
-        <!-- bagian tabel -->
-        <h3>Keahlian Saya</h3>
-        <section id="tabel waktu">
-        <div class="container">
-        <table 1 border="2">
-        <tr>
-            <th>No</th>
-            <th>Keterangan</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Microsoft Office</td>
-        </tr>
-        </tr>
-            <td>2</td>
-            <td>Analisis Data</td>
-        </tr>
-        </tr>
-            <td>3</td>
-            <td>Manajemen Data</td>
-        </tr>
-        </tr>
-            <td>4</td>
-            <td>Mengoperasikan ArcGIS</td>
-        </tr>
-        </tr>
-            <td>5</td>
-            <td>Mengoperasikan ENVI</td>
-        </tr>
-        </tr>
-            <td>6</td>
-            <td>Sistem Informasi Geografis dan Penginderaan Jauh</td>
-        </tr>
-        </tr>
-            <td>7</td>
-            <td>Surveyor</td>
-        </tr>
-        </tr>
-            <td>8</td>
-            <td>Pemasaran</td>      
-
-        </table>
-        <button>
-    </div>
+</head>  
+  </div>
 </section>
 
-        <!-- bagian tabel -->
-        <h3>Pendidikan Saya</h3>
-        <section id="tabel waktu">
-        <div class="container">
-        <table 1 border="2">
-        <tr>
-            <th>No</th>
-            <th>Tahun</th>
-            <th>Keterangan</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2007-2013</td>
-            <td>SDN 1 Ciruas</td>
-        </tr>
-        </tr>       
-            <td>2</td>
-            <td>2013-2016</td>
-            <td>SMPN 1 Ciruas</td>
-        </tr>
-        </tr>  
-            <td>3</td>
-            <td>2016-2019</td>
-            <td>SMAN 1 Ciruas</td>  
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>2019-Sekarang</td>
-            <td>S1 Geografi Universitas Negeri Semarang</td>
-        </tr>
-        </tr>     
-           
-        </table>
-        <button>
-</div>
-</section>
-        <head>
-            <body>
-                <h3>Kontak Saya</h3>
-            <p><a href="https://www.linkedin.com/in/irma-oktavia-665420244/">Linkedin</a></p>
-            <p><a href="https://www.instagram.com/irrmaoktavia/">Instagram</a></p>
-            </ul>
-                </body>
-            </head>  
-    </button>
-    </div>
-    </section>
-    <p class="external">Sekian dan Terima Kasih</p> 
-
-
-    </body>
+  </body>
 </html>
 
     
